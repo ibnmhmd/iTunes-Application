@@ -19,7 +19,7 @@ The app has the following features
 Please read below mentioned points to help you start using it.  
 
 ## Quick Start
-1- Clone the git repo https://github.com/ibnmhmd/iTunes-App.git into your PC.  
+1- Clone the git repo https://github.com/ibnmhmd/iTunes-Application.git into your PC.  
 2- Open it using any of your favourite IDEs.  
 3- Open a command prompt from the project directory.  
 4- Run **npm install** to download dependencies.  
