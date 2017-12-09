@@ -1,0 +1,289 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+}
+
+.App-header {
+  background-color: gray;
+  height: 13rem;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5Aem;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.home
+{
+  background: rgba(122, 159, 189, 0.959);
+}
+
+.home h5{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+
+.home h5 span{
+  color: white;
+  text-decoration: underline;
+}
+
+.searchImg
+{
+  width: 3rem;
+  height: 3rem;
+ 
+}
+
+.searchImg:hover
+{
+  cursor: pointer;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.searchDiv:hover
+{
+  cursor: pointer;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+
+.moveUp
+{
+  padding-bottom: 2rem;
+
+}
+.round
+{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.round:hover
+{
+  border: 1px solid pink;
+  border-radius: 7px;
+}
+
+#load{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:9999;
+  background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+.count
+{
+  float: left !important;
+}
+.note
+{
+  color: brown;
+}
+
+.result
+{
+  text-decoration: underline;
+}
+
+.tbody
+{
+  text-align: left;
+}
+.artwork
+{
+  width: 5rem;
+  height: 4rem;
+  border: 1px solid pink;
+  transition: all .5s ease-in-out;
+}
+
+.artwork:hover
+{
+  cursor: zoom-in;
+ border: 1px solid brown;
+ border-radius: 7px;
+ -moz-transform: scale(4);
+ -webkit-transform: scale(4);
+ transform: scale(4);
+ z-index: 1000;
+}
+
+table:hover {
+  cursor: pointer;
+}
+
+.th
+{
+  width: 10% !important;
+}
+
+.link:hover
+{
+  color: red;
+}
+
+.list
+{
+  margin: 1.02rem;
+  font-size: 2rem;
+}
+
+.list:hover
+{
+  color: yellow;
+  cursor: pointer;
+}
+
+.listHome
+{
+  font-size: 2rem;
+}
+
+.listHome:hover
+{
+  color: yellow;
+  cursor: pointer;
+}
+.App{
+ 
+}
+.App label:hover
+{
+  cursor: pointer;
+  color: black;
+}
+
+.nav
+{
+  background: lightgrey;
+  border-radius: 7px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.clearfix::before, .clearfix::after
+{
+  content: "";
+  display: table;
+}
+
+.clearfix::after
+{
+  clear: both;
+}
+
+.btn {
+  white-space: normal;
+}
+
+.btn-primary a
+{
+  color: white !important;
+}
+
+#root > div > div.container.home > div:nth-child(1) > div.col-xs-1.col-sm-1.col-md-1.col-lg-1.col-xl-1 > a
+{
+  color: black !important;
+}
+
+.btn-normal
+{
+  white-space: nowrap !important;
+}
+
+.filter
+{
+  float: right;
+  margin: 0;
+}
+
+.filter:hover
+{
+  cursor: pointer;
+}
+
+.alert
+{
+  padding: 5px !important;
+}
+.modal-body
+{
+  background: lightgray;
+  text-align: center;
+}
+
+.modal-body p
+{
+  font-weight: bold;
+
+}
+.dng
+{
+  float: right;
+  margin-left: 0.3rem;
+}
+.badge-1
+{
+  background: pink !important;
+  color: black !important;
+}
+
+.adjust
+{
+  margin-left: 1rem;
+}
+
+body{
+  background: azure url('../img/iTune.png') no-repeat;
+  background-position-x: center;
+
+}
+
+@media screen and (max-width:767px)
+{
+  .table-responsive
+  {
+    border: none;
+  }
+
+  .album
+  {
+    margin-top: 0.5em;
+  }
+
+  .App-title{
+    font-size: 1.3em;
+  }
+
+  .cl
+  {
+    font-size: 0.8em;
+  }
+
+  .searchImg
+  {
+    margin-left: -1.003em;
+    padding-bottom: 10px;
+  }
+}
